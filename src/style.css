@@ -156,5 +156,17 @@ body{
     }
 }
 
+@media screen {
+    #questionBox{
+        width: 100%;
+    }
+    .modalContent{
+        width: 80%;
+    }
+    #closeModal{
+        top: -372px;
+    }
+}
+
 
     
