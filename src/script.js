@@ -25,6 +25,8 @@ noButton.addEventListener ("mouseover", () => {
 
     noButton.style.left = `${randomX}px`;
     noButton.style.top = `${randomY}px`;
+
+    noButton.style.transition = "top 0.1s ease-in-out, left 0.5s ease-in-out";
 });
 
 noButton.addEventListener ("click", () => {
