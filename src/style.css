@@ -144,7 +144,7 @@ body{
   }
   
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     #questionBox{
         width: 100%;
     }
@@ -156,17 +156,7 @@ body{
     }
 }
 
-@media screen {
-    #questionBox{
-        width: 100%;
-    }
-    .modalContent{
-        width: 80%;
-    }
-    #closeModal{
-        top: -372px;
-    }
-}
+
 
 
     
